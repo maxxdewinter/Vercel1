@@ -6,10 +6,12 @@ export function Hero() {
   ]
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section id="hero" className="flex items-center justify-center px-6 pt-20 pb-4">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="space-y-12">
+        <div className="space-y-8">
           {/* Decorative line */}
+          <div className="w-24 h-px bg-foreground mx-auto" />
+
           <div className="w-24 h-px bg-foreground mx-auto" />
 
           <h1 className="font-sans text-6xl md:text-8xl lg:text-9xl font-light tracking-tight text-balance">
@@ -18,7 +20,7 @@ export function Hero() {
 
           <div className="w-24 h-px bg-foreground mx-auto" />
 
-          <div className="max-w-md mx-auto space-y-3 pt-4">
+          <div className="max-w-md mx-auto space-y-3 pt-2">
             {links.map((link) => (
               <div key={link.id} className="border border-border bg-card hover:bg-secondary transition-colors">
                 <a href={link.url} target="_blank" rel="noopener noreferrer" className="block px-6 py-4">
