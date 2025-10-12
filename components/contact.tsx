@@ -13,30 +13,22 @@ export function Contact() {
               <div className="space-y-2">
                 <p className="font-serif text-xs tracking-widest uppercase text-muted-foreground">Email</p>
                 <a
-                  href="mailto:max@dewinter.com"
+                  href="mailto:contact@maxdewinter.com"
                   className="font-sans text-xl md:text-2xl hover:opacity-70 transition-opacity block"
                 >
-                  max@dewinter.com
+                  contact@maxdewinter.com
                 </a>
               </div>
 
               <div className="w-full h-px bg-border" />
 
               <div className="space-y-2">
-                <p className="font-serif text-xs tracking-widest uppercase text-muted-foreground">Phone</p>
-                <a
-                  href="tel:+1234567890"
-                  className="font-sans text-xl md:text-2xl hover:opacity-70 transition-opacity block"
-                >
-                  +1 (234) 567-890
-                </a>
-              </div>
-
-              <div className="w-full h-px bg-border" />
-
-              <div className="space-y-2">
-                <p className="font-serif text-xs tracking-widest uppercase text-muted-foreground">Location</p>
-                <p className="font-sans text-xl md:text-2xl">New York, NY</p>
+                <p className="font-serif text-xs tracking-widest uppercase text-muted-foreground">Locations</p>
+                <div className="font-sans text-xl md:text-2xl space-y-1">
+                  <p>Auckland, New Zealand</p>
+                  <p>Sydney, Australia</p>
+                  <p>California, USA</p>
+                </div>
               </div>
             </div>
           </div>

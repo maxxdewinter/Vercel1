@@ -29,12 +29,6 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-12">
             <button
-              onClick={() => scrollToSection("about")}
-              className="text-sm font-serif tracking-widest uppercase hover:opacity-70 transition-opacity"
-            >
-              About
-            </button>
-            <button
               onClick={() => scrollToSection("contact")}
               className="text-sm font-serif tracking-widest uppercase hover:opacity-70 transition-opacity"
             >
@@ -56,12 +50,6 @@ export function Navigation() {
         {isOpen && (
           <div className="md:hidden py-6 border-t border-border">
             <div className="flex flex-col gap-6">
-              <button
-                onClick={() => scrollToSection("about")}
-                className="text-sm font-serif tracking-widest uppercase hover:opacity-70 transition-opacity text-left"
-              >
-                About
-              </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-sm font-serif tracking-widest uppercase hover:opacity-70 transition-opacity text-left"
