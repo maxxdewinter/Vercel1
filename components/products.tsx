@@ -18,13 +18,13 @@ export function Products() {
     {
       id: "2",
       title: "Bronson Vitamin D3 + K2, 5000IU + 90mcg",
-      url: "https://amzn.to/3Ktx6sq",
+      url: "https://amzn.to/4p8MvgO",
       image: "/images/bronson-vitamin.jpg",
     },
     {
       id: "3",
       title: "MUSICOZY Bluetooth Sleep Headband",
-      url: "https://amzn.to/3Ktx6sq",
+      url: "https://amzn.to/48fo8rR",
       image: "/images/musicozy-headband.jpg",
     },
   ]
